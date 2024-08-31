@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/rogpeppe/fastuuid"
-	"github.com/sinsay/grpc-gateway/examples/internal/clients/abe"
-	"github.com/sinsay/grpc-gateway/examples/internal/clients/echo"
-	"github.com/sinsay/grpc-gateway/examples/internal/clients/unannotatedecho"
+	"github.com/eden-quan/grpc-gateway/examples/internal/clients/abe"
+	"github.com/eden-quan/grpc-gateway/examples/internal/clients/echo"
+	"github.com/eden-quan/grpc-gateway/examples/internal/clients/unannotatedecho"
 )
 
 var uuidgen = fastuuid.MustNewGenerator()

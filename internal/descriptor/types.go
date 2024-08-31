@@ -7,8 +7,8 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/sinsay/grpc-gateway/internal/casing"
-	"github.com/sinsay/grpc-gateway/internal/httprule"
+	"github.com/eden-quan/grpc-gateway/internal/casing"
+	"github.com/eden-quan/grpc-gateway/internal/httprule"
 )
 
 // IsWellKnownType returns true if the provided fully qualified type name is considered 'well-known'.

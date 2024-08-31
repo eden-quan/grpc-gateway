@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/sinsay/grpc-gateway/runtime"
-	"github.com/sinsay/grpc-gateway/runtime/internal/examplepb"
-	"github.com/sinsay/grpc-gateway/utilities"
+	"github.com/eden-quan/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/runtime/internal/examplepb"
+	"github.com/eden-quan/grpc-gateway/utilities"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/durationpb"

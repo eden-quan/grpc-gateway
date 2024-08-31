@@ -5,9 +5,9 @@ import (
 	"net"
 	"net/http"
 
-	examples "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb"
-	standalone "github.com/sinsay/grpc-gateway/examples/internal/proto/standalone"
-	"github.com/sinsay/grpc-gateway/runtime"
+	examples "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb"
+	standalone "github.com/eden-quan/grpc-gateway/examples/internal/proto/standalone"
+	"github.com/eden-quan/grpc-gateway/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )

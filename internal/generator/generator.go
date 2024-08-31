@@ -2,7 +2,7 @@
 package generator
 
 import (
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
 )
 
 // Generator is an abstraction of code generators.

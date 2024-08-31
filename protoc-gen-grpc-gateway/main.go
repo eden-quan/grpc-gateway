@@ -15,9 +15,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sinsay/grpc-gateway/internal/codegenerator"
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
-	"github.com/sinsay/grpc-gateway/protoc-gen-grpc-gateway/internal/gengateway"
+	"github.com/eden-quan/grpc-gateway/internal/codegenerator"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-grpc-gateway/internal/gengateway"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/compiler/protogen"
 )

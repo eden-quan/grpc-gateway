@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package flatten;
 
-option go_package = "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/meta;meta";
+option go_package = "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/meta;meta";
 
 import "google/protobuf/descriptor.proto";
 

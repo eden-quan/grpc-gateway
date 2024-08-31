@@ -8,7 +8,7 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/sinsay/grpc-gateway/runtime/internal/examplepb";
+option go_package = "github.com/eden-quan/grpc-gateway/runtime/internal/examplepb";
 
 message Proto3Message {
   // Next number: 49

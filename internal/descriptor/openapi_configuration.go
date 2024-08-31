@@ -3,9 +3,10 @@ package descriptor
 import (
 	"encoding/json"
 	"fmt"
+	"gopkg.in/yaml.v3"
 	"os"
 
-	"github.com/sinsay/grpc-gateway/internal/descriptor/openapiconfig"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor/openapiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

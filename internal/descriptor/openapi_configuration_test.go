@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
 )
 
 func TestLoadOpenAPIConfigFromYAMLRejectInvalidYAML(t *testing.T) {

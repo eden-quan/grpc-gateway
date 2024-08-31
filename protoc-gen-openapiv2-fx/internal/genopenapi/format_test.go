@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
 )
 
 func TestFormatValidate(t *testing.T) {

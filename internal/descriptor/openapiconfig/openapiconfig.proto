@@ -4,7 +4,7 @@ package grpc.gateway.internal.descriptor.openapiconfig;
 
 import "protoc-gen-openapiv2/options/openapiv2.proto";
 
-option go_package = "github.com/sinsay/grpc-gateway/internal/descriptor/openapiconfig";
+option go_package = "github.com/eden-quan/grpc-gateway/internal/descriptor/openapiconfig";
 
 // OpenAPIFileOption represents OpenAPI options on a file
 message OpenAPIFileOption {

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/runtime"
 )
 
 func TestMarshalerForRequest(t *testing.T) {

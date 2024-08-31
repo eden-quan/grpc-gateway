@@ -24,10 +24,10 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/sinsay/grpc-gateway/internal/casing"
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
-	flatten "github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten"
-	openapi_options "github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	"github.com/eden-quan/grpc-gateway/internal/casing"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
+	flatten "github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten"
+	openapi_options "github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
 )
 
 // The OpenAPI specification does not allow for more than one endpoint with the same HTTP method and path.

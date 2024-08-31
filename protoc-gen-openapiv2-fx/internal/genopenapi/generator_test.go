@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

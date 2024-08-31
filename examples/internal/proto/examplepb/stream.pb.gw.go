@@ -13,9 +13,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/sinsay/grpc-gateway/examples/internal/proto/sub"
-	"github.com/sinsay/grpc-gateway/runtime"
-	"github.com/sinsay/grpc-gateway/utilities"
+	"github.com/eden-quan/grpc-gateway/examples/internal/proto/sub"
+	"github.com/eden-quan/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/utilities"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"

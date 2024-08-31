@@ -13,9 +13,9 @@ import (
 	"io"
 	"net/http"
 
-	extExamplepb "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb"
-	"github.com/sinsay/grpc-gateway/runtime"
-	"github.com/sinsay/grpc-gateway/utilities"
+	extExamplepb "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb"
+	"github.com/eden-quan/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/utilities"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"

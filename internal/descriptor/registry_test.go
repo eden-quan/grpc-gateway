@@ -3,7 +3,7 @@ package descriptor
 import (
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/internal/descriptor/openapiconfig"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor/openapiconfig"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/runtime"
-	pb "github.com/sinsay/grpc-gateway/runtime/internal/examplepb"
+	"github.com/eden-quan/grpc-gateway/runtime"
+	pb "github.com/eden-quan/grpc-gateway/runtime/internal/examplepb"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"

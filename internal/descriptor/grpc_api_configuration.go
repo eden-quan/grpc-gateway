@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sinsay/grpc-gateway/internal/descriptor/apiconfig"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor/apiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

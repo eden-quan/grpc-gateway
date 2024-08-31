@@ -30,7 +30,7 @@ We will be using a Go gRPC server in the examples, so please install Go first fr
 After installing Go, use `go install` to download and build the following binaries:
 
 ```sh
-$ go install github.com/sinsay/grpc-gateway/protoc-gen-grpc-gateway@latest
+$ go install github.com/eden-quan/grpc-gateway/protoc-gen-grpc-gateway@latest
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 $ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```

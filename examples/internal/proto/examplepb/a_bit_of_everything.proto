@@ -16,7 +16,7 @@ import "google/protobuf/wrappers.proto";
 import "google/rpc/status.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";
 
-option go_package = "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb";
+option go_package = "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb";
 option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
   info: {
     title: "A Bit of Everything";

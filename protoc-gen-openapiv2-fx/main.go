@@ -12,12 +12,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/sinsay/grpc-gateway/internal/codegenerator"
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten"
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten/meta"
-	"github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
-	"github.com/sinsay/grpc-gateway/utilities"
+	"github.com/eden-quan/grpc-gateway/internal/codegenerator"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/flatten/meta"
+	"github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/internal/genopenapi"
+	"github.com/eden-quan/grpc-gateway/utilities"
 )
 
 var (

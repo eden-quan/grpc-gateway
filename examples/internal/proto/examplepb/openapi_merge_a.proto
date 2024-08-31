@@ -7,7 +7,7 @@ package grpc.gateway.examples.internal.examplepb;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb";
+option go_package = "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb";
 
 // InMessageA represents a message to ServiceA and ServiceC.
 message InMessageA {

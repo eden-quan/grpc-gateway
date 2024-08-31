@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	pb "github.com/sinsay/grpc-gateway/examples/internal/helloworld"
-	"github.com/sinsay/grpc-gateway/runtime"
+	pb "github.com/eden-quan/grpc-gateway/examples/internal/helloworld"
+	"github.com/eden-quan/grpc-gateway/runtime"
 )
 
 func main() {

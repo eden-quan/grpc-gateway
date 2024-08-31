@@ -104,7 +104,7 @@ go_proto_library(
         "//:go_grpc",
         "//protoc-gen-grpc-gateway:go_gen_grpc_gateway",
     ],
-    importpath = "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb",
+    importpath = "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb",
     proto = ":examplepb_proto",
     deps = [
         "//examples/internal/proto/oneofenum",
@@ -131,7 +131,7 @@ go_library(
         "openapi_merge_b_grpc.pb.go",
     ],
     embed = [":examplepb_go_proto"],
-    importpath = "github.com/sinsay/grpc-gateway/examples/internal/proto/examplepb",
+    importpath = "github.com/eden-quan/grpc-gateway/examples/internal/proto/examplepb",
     deps = [
         "//runtime",
         "//utilities",

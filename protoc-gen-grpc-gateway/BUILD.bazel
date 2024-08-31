@@ -6,7 +6,7 @@ package(default_visibility = ["//visibility:private"])
 go_library(
     name = "protoc-gen-grpc-gateway_lib",
     srcs = ["main.go"],
-    importpath = "github.com/sinsay/grpc-gateway/protoc-gen-grpc-gateway",
+    importpath = "github.com/eden-quan/grpc-gateway/protoc-gen-grpc-gateway",
     deps = [
         "//internal/codegenerator",
         "//internal/descriptor",

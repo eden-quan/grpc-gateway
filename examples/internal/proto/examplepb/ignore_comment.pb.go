@@ -7,7 +7,7 @@
 package examplepb
 
 import (
-	_ "github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	_ "github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

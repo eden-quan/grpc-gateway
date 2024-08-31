@@ -5,7 +5,7 @@ package grpc.gateway.protoc_gen_openapiv2.options;
 import "google/protobuf/descriptor.proto";
 import "protoc-gen-openapiv2/options/openapiv2.proto";
 
-option go_package = "github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/options";
+option go_package = "github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options";
 
 extend google.protobuf.FileOptions {
   // ID assigned by protobuf-global-extension-registry@google.com for gRPC-Gateway project.

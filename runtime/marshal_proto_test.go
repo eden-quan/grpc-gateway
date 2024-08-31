@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/sinsay/grpc-gateway/runtime"
-	"github.com/sinsay/grpc-gateway/runtime/internal/examplepb"
+	"github.com/eden-quan/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/runtime/internal/examplepb"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

@@ -9,7 +9,7 @@ go_library(
         "parse.go",
         "types.go",
     ],
-    importpath = "github.com/sinsay/grpc-gateway/internal/httprule",
+    importpath = "github.com/eden-quan/grpc-gateway/internal/httprule",
     deps = ["//utilities"],
 )
 

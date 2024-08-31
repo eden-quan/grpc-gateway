@@ -14,7 +14,7 @@ go_library(
         "responsebody.go",
         "unannotatedecho.go",
     ],
-    importpath = "github.com/sinsay/grpc-gateway/examples/internal/server",
+    importpath = "github.com/eden-quan/grpc-gateway/examples/internal/server",
     deps = [
         "//examples/internal/proto/examplepb",
         "//examples/internal/proto/oneofenum",

@@ -7,11 +7,11 @@
 package examplepb
 
 import (
-	oneofenum "github.com/sinsay/grpc-gateway/examples/internal/proto/oneofenum"
-	pathenum "github.com/sinsay/grpc-gateway/examples/internal/proto/pathenum"
-	sub "github.com/sinsay/grpc-gateway/examples/internal/proto/sub"
-	sub2 "github.com/sinsay/grpc-gateway/examples/internal/proto/sub2"
-	_ "github.com/sinsay/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	oneofenum "github.com/eden-quan/grpc-gateway/examples/internal/proto/oneofenum"
+	pathenum "github.com/eden-quan/grpc-gateway/examples/internal/proto/pathenum"
+	sub "github.com/eden-quan/grpc-gateway/examples/internal/proto/sub"
+	sub2 "github.com/eden-quan/grpc-gateway/examples/internal/proto/sub2"
+	_ "github.com/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

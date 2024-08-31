@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"gopkg.in/yaml.v3"
 
-	"github.com/sinsay/grpc-gateway/internal/descriptor"
+	"github.com/eden-quan/grpc-gateway/internal/descriptor"
 )
 
 type param struct {

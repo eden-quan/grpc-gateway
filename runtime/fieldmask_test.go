@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/sinsay/grpc-gateway/runtime/internal/examplepb"
+	"github.com/eden-quan/grpc-gateway/runtime/internal/examplepb"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 	field_mask "google.golang.org/protobuf/types/known/fieldmaskpb"

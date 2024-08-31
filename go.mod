@@ -1,4 +1,4 @@
-module github.com/sinsay/grpc-gateway
+module github.com/eden-quan/grpc-gateway
 
 go 1.19
 

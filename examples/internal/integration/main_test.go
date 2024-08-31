@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sinsay/grpc-gateway/examples/internal/gateway"
-	"github.com/sinsay/grpc-gateway/examples/internal/server"
-	gwruntime "github.com/sinsay/grpc-gateway/runtime"
+	"github.com/eden-quan/grpc-gateway/examples/internal/gateway"
+	"github.com/eden-quan/grpc-gateway/examples/internal/server"
+	gwruntime "github.com/eden-quan/grpc-gateway/runtime"
 	"google.golang.org/grpc/grpclog"
 )
 
