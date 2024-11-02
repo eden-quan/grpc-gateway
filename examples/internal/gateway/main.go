@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	gwruntime "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
+	gwruntime "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/runtime"
 	"google.golang.org/grpc/grpclog"
 )
 

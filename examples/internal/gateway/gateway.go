@@ -7,9 +7,9 @@ import (
 	"net"
 	"net/http"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/examplepb"
-	standalone "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/standalone"
-	gwruntime "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/examplepb"
+	standalone "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/standalone"
+	gwruntime "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/runtime"
 	_ "google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc"
 )

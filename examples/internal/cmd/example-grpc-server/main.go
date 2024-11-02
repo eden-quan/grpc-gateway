@@ -8,7 +8,7 @@ import (
 	"context"
 	"flag"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/server"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/server"
 	"google.golang.org/grpc/grpclog"
 )
 

@@ -14,7 +14,7 @@ It is often interesting to know what [HTTP path pattern](https://github.com/goog
 
 ```proto
 syntax = "proto3";
-option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/examplepb";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/examplepb";
 package grpc.gateway.examples.internal.proto.examplepb;
 
 import "google/api/annotations.proto";

@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/genopenapi"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/genopenapi"
 )
 
 func TestFormatValidate(t *testing.T) {

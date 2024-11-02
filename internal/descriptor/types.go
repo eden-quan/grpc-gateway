@@ -7,8 +7,8 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/casing"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/httprule"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/casing"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/httprule"
 )
 
 // IsWellKnownType returns true if the provided fully qualified type name is considered 'well-known'.

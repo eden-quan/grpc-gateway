@@ -7,11 +7,11 @@
 package examplepb
 
 import (
-	oneofenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/oneofenum"
-	pathenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/pathenum"
-	sub "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub"
-	sub2 "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub2"
-	_ "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
+	oneofenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/oneofenum"
+	pathenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/pathenum"
+	sub "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/sub"
+	sub2 "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/sub2"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

@@ -4,8 +4,8 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten/meta"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten/meta"
 )
 
 type FlatInfo struct {

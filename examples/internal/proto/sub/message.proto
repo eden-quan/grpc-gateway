@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package grpc.gateway.examples.internal.proto.sub;
 
-option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/sub";
 
 message StringMessage {
   required string value = 1;

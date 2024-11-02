@@ -13,8 +13,8 @@ import (
 	"io"
 	"net/http"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/runtime"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/utilities"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"

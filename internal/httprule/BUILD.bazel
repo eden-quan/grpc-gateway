@@ -9,7 +9,7 @@ go_library(
         "parse.go",
         "types.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/httprule",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/httprule",
     deps = ["//utilities"],
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	examples "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/examplepb"
+	examples "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/examplepb"
 )
 
 // Implements of ResponseBodyServiceServer

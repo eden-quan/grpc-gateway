@@ -24,10 +24,10 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/casing"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
-	flatten "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten"
-	openapi_options "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/casing"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor"
+	flatten "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten"
+	openapi_options "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
 )
 
 // The OpenAPI specification does not allow for more than one endpoint with the same HTTP method and path.

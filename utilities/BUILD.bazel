@@ -11,7 +11,7 @@ go_library(
         "string_array_flag.go",
         "trie.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/utilities",
 )
 
 go_test(

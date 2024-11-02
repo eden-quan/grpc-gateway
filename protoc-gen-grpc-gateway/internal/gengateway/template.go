@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/casing"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/casing"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/utilities"
 	"google.golang.org/grpc/grpclog"
 )
 

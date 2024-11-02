@@ -1,7 +1,7 @@
 package httprule
 
 import (
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/utilities"
 )
 
 const (

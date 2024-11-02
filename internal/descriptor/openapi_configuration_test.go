@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
 )
 
 func TestLoadOpenAPIConfigFromYAMLRejectInvalidYAML(t *testing.T) {

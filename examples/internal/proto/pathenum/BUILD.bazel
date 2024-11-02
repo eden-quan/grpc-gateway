@@ -12,14 +12,14 @@ proto_library(
 go_proto_library(
     name = "pathenum_go_proto",
     compilers = ["//:go_apiv2"],
-    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/pathenum",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/pathenum",
     proto = ":pathenum_proto",
 )
 
 go_library(
     name = "pathenum",
     embed = [":pathenum_go_proto"],
-    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/pathenum",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/proto/pathenum",
 )
 
 alias(

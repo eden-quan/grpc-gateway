@@ -3,7 +3,7 @@ package descriptor
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor/openapiconfig"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor/openapiconfig"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"

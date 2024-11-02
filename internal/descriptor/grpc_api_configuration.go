@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor/apiconfig"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor/apiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

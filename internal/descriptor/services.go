@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/httprule"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/httprule"
 	options "google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/proto"

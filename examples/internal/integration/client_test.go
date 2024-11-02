@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/rogpeppe/fastuuid"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/clients/abe"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/clients/echo"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/clients/unannotatedecho"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/clients/abe"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/clients/echo"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/examples/internal/clients/unannotatedecho"
 )
 
 var uuidgen = fastuuid.MustNewGenerator()

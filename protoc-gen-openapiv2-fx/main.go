@@ -12,12 +12,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/codegenerator"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten/meta"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/genopenapi"
-	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/codegenerator"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/flatten/meta"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/protoc-gen-openapiv2-fx/internal/genopenapi"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git/utilities"
 )
 
 var (
