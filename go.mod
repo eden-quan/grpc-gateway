@@ -1,4 +1,4 @@
-module gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git
+module gitlab.lainuoniao.cn/rhinobird/backend/grpc-gateway.git
 
 go 1.19
 
