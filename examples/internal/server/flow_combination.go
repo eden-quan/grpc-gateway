@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	examples "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/examplepb"
+	examples "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/examplepb"
 )
 
 type flowCombinationServer struct{}

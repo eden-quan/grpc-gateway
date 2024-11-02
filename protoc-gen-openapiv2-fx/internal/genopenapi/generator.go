@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
-	gen "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/generator"
-	openapioptions "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
+	gen "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/generator"
+	openapioptions "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/proto"

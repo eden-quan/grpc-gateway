@@ -13,9 +13,9 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/codegenerator"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor/openapiconfig"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx/options"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/codegenerator"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor/openapiconfig"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx/options"
 )
 
 // Registry is a registry of information extracted from pluginpb.CodeGeneratorRequest.

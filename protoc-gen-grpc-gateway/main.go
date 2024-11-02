@@ -15,9 +15,9 @@ import (
 	"os"
 	"strings"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/codegenerator"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-grpc-gateway/internal/gengateway"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/codegenerator"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-grpc-gateway/internal/gengateway"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/compiler/protogen"
 )

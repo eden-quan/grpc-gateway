@@ -3,7 +3,7 @@ package gengateway
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

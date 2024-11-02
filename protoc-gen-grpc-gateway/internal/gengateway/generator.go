@@ -6,8 +6,8 @@ import (
 	"go/format"
 	"path"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
-	gen "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/generator"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
+	gen "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/generator"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
@@ -32,8 +32,8 @@ func New(reg *descriptor.Registry, useRequestContext bool, registerFuncSuffix st
 		"context",
 		"io",
 		"net/http",
-		"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime",
-		"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/utilities",
+		"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime",
+		"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities",
 		"google.golang.org/protobuf/proto",
 		"google.golang.org/grpc",
 		"google.golang.org/grpc/codes",

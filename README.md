@@ -71,8 +71,8 @@ to track the versions of the following executable packages:
 package tools
 
 import (
-    _ "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-grpc-gateway"
-    _ "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx"
+    _ "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-grpc-gateway"
+    _ "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx"
     _ "google.golang.org/grpc/cmd/protoc-gen-go-grpc"
     _ "google.golang.org/protobuf/cmd/protoc-gen-go"
 )
@@ -82,8 +82,8 @@ Run `go mod tidy` to resolve the versions. Install by running
 
 ```sh
 $ go install \
-    gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-grpc-gateway \
-    gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-openapiv2-fx \
+    gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-grpc-gateway \
+    gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-openapiv2-fx \
     google.golang.org/protobuf/cmd/protoc-gen-go \
     google.golang.org/grpc/cmd/protoc-gen-go-grpc
 ```
@@ -354,7 +354,7 @@ import (
   "flag"
   "net/http"
 
-  "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
+  "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
   "google.golang.org/grpc"
   "google.golang.org/grpc/credentials/insecure"
   "google.golang.org/grpc/grpclog"
@@ -488,7 +488,7 @@ This requires no local installation of any plugins. Be careful to use the same
 version of the generator as the runtime library, i.e. if using `v2.16.2`, run
 
 ```shell
-$ go get gitlab.lainuoniao.cn/eden-quan/grpc-gateway@v2.16.2
+$ go get gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git@v2.16.2
 ```
 
 To get the same version of the runtime in your `go.mod`.

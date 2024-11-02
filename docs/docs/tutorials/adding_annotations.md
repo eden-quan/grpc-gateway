@@ -123,7 +123,7 @@ import (
 	"net"
 	"net/http"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 

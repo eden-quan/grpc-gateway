@@ -2,7 +2,7 @@
 package generator
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
 )
 
 // Generator is an abstraction of code generators.

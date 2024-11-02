@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"gopkg.in/yaml.v3"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor"
 )
 
 type param struct {

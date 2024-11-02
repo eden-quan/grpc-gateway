@@ -7,7 +7,7 @@
 package examplepb
 
 import (
-	sub "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/sub"
+	sub "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	httpbody "google.golang.org/genproto/googleapis/api/httpbody"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

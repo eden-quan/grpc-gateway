@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/gateway"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/server"
-	gwruntime "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/gateway"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/server"
+	gwruntime "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
 	"google.golang.org/grpc/grpclog"
 )
 

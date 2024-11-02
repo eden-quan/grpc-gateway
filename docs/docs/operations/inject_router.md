@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	pb "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/helloworld"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
+	pb "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/helloworld"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
 )
 
 func main() {

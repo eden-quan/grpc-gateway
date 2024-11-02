@@ -9,7 +9,7 @@ go_library(
         "generator.go",
         "template.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/protoc-gen-grpc-gateway/internal/gengateway",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/protoc-gen-grpc-gateway/internal/gengateway",
     deps = [
         "//internal/casing",
         "//internal/descriptor",

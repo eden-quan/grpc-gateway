@@ -6,7 +6,7 @@ import (
 	"gopkg.in/yaml.v3"
 	"os"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor/openapiconfig"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor/openapiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

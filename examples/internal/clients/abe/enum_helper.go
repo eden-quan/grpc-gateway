@@ -1,9 +1,9 @@
 package abe
 
 import (
-	pbexamplepb "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/examplepb"
-	pbpathenum "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/pathenum"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
+	pbexamplepb "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/examplepb"
+	pbpathenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/pathenum"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
 )
 
 // String returns a string representation of "NumericEnum"

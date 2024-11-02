@@ -13,9 +13,9 @@ import (
 	"io"
 	"net/http"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/sub"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/runtime"
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/runtime"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"

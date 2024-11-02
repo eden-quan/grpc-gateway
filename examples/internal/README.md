@@ -8,7 +8,7 @@ $ dep init
 Follow the guides from this [README.md](./browser/README.md) to run the server and gateway.
 ```bash
 # Make sure you are in the correct directory: 
-# $GOPATH/src/gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples
+# $GOPATH/src/gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples
 $ cd examples/internal/browser
 $ pwd
 

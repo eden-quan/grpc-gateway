@@ -11,7 +11,7 @@ go_library(
         "services.go",
         "types.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/descriptor",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/descriptor",
     deps = [
         "//internal/casing",
         "//internal/codegenerator",

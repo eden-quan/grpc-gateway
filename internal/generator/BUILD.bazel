@@ -5,7 +5,7 @@ package(default_visibility = ["//visibility:public"])
 go_library(
     name = "generator",
     srcs = ["generator.go"],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/internal/generator",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/internal/generator",
     deps = ["//internal/descriptor"],
 )
 

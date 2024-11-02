@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/grpc-gateway/utilities"
+	"gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/utilities"
 )
 
 func TestStringArrayFlag(t *testing.T) {

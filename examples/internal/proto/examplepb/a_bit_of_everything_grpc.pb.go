@@ -8,10 +8,10 @@ package examplepb
 
 import (
 	context "context"
-	oneofenum "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/oneofenum"
-	pathenum "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/pathenum"
-	sub "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/sub"
-	sub2 "gitlab.lainuoniao.cn/eden-quan/grpc-gateway/examples/internal/proto/sub2"
+	oneofenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/oneofenum"
+	pathenum "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/pathenum"
+	sub "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub"
+	sub2 "gitlab.lainuoniao.cn/rhinobird/backend/grpc/grpc-gateway.git/examples/internal/proto/sub2"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
